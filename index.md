@@ -1,1 +1,1 @@
-This Repository is for Linux Commands by Ravi
+This Repository is for DevOps Concepts by Ravi
