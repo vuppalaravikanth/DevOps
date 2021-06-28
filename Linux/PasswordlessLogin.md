@@ -5,7 +5,7 @@
 ```
 ssh root@134.122.120.216
 ```
-This time it asks for password (We assume there is no prior configuration for Passwordless login)
+This time it asks for password (We assume there is no prior configuration for passwordless login)
 
 #### Step 1: Make public/private key pair
 Generate the key pair in the source system
@@ -27,6 +27,7 @@ ssh-copy-id root@134.122.120.216
 The above command copies the public key from /root/.ssh/id_rsa.pub to the /root/.ssh/authorized_keys.
 
 #### Step 2.1 Manually Copy the Public key
+If we implemented the step 2.0 we can ignore this step.
 ```
 cat /root/.ssh/id_rsa
 ```
