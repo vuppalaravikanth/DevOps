@@ -17,7 +17,7 @@ Don't give any passphrase, As we want to connect to the server without password 
 cd /root/.ssh
 ls -ltra
 ```
-Verify the two files under the folder /root/.ssh
+Verify the two files id_rsa and id_rsa.pub under the folder /root/.ssh
 
 #### Step 2.0 Copy Public key to the Server
 This can be done by two ways. By using ssh-copy-id command or manually copying the key to the server.
