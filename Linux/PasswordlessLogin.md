@@ -12,7 +12,7 @@ Generate the key pair in the source system
 ```
 ssh-keygen -t rsa
 ```
-Don't give any passphrase, As we want to connect to the server without password or passphrase. This command generates two file one is private key which is id_rsa and public key id_rsa.pub under the directory /root/.ssh
+Don't give any passphrase, As we want to connect to the server without password or passphrase. This command generates two files, one is private key which is id_rsa and public key id_rsa.pub under the directory /root/.ssh
 ```
 cd /root/.ssh
 ls -ltra
