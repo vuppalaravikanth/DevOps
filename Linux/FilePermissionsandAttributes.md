@@ -1,6 +1,6 @@
 # File Permissions and Attributes
 
-### *[Linux](linux.md)*
+### *[Home](linux.md)*
 
 ### File/Directory Listing Information
 Special designation = - for file, d for directory<br/>
@@ -80,5 +80,5 @@ chmod 755 *   results in rwxr-xr-x for all the files in folder.
 06.51
 
 
-*[Linux](linux.md)*
+### *[Home](linux.md)*
 
