@@ -1,5 +1,6 @@
 # Passwordless Login using SSH
 
+*[Home](linux.md)*
 #### Step 0: Login to the Server
 
 ```
@@ -67,3 +68,5 @@ ssh ravi@134.122.120.216
 ```
 Output shows as Permission denied and does not ask for password also.<br/>
 Since we configured the passwordless login for the user root and disabled the password logins We cannot connect to server using ravi user.
+
+*[Home](linux.md)*
