@@ -1,4 +1,6 @@
-*[Linux](linux.md)*
+# File Permissions and Attributes
+
+### *[Linux](linux.md)*
 
 ### File/Directory Listing Information
 Special designation = - for file, d for directory<br/>
