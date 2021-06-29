@@ -1,4 +1,4 @@
-
+*[Linux](linux.md)*
 
 ### File/Directory Listing Information
 Special designation = - for file, d for directory<br/>
@@ -52,7 +52,7 @@ chmod a+w file.txt   Gives all of them the write permission
 chmod +x file.txt    Gives all of them the execute permission
 chmod u=rw file.txt  Gives user read and write permissions
 chmod u=rw,g=rw,o=r file.txt  combination of permissions for file.
-chmod u=rwx,ug+rw,o=r fishy file.txt  combinations are also accepted
+chmod u=rwx,ug+rw,o=r file.txt fishy combinations are also accepted
 ```
 
 ### chmod - Setting octal permissions
@@ -76,4 +76,7 @@ chmod 000 file.txt  results in  ---------
 chmod 755 *   results in rwxr-xr-x for all the files in folder.
 ```
 06.51
+
+
+*[Linux](linux.md)*
 
