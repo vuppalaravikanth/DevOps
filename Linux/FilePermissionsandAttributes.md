@@ -2,7 +2,15 @@
 
 ### *[Home](linux.md)*
 
-### File/Directory Listing Information
+## Statndard Unix file Permissions
+
+|permission |on a file| on a directory|
+| :---  | :---: | ---: |
+|r (read) |read file contents (cat)| read directory contents (ls)|
+|w (write) |change file contents (vi)| create files in (touch)|
+|x (execute)| execute the file |enter the directory (cd)|
+
+## File/Directory Listing Information
 Special designation = - for file, d for directory<br/>
 Permissions = rwx for owner, rwx for group, rwx for others<br/>
 owner = the name of the user that owns the file/directory<br/>
@@ -12,7 +20,7 @@ group = the name of the group that has permissions on the file/directory<br/>
 
 
 | Number | Permission Type | Symbol |Binary Number|
-| :---  | :---: | ---: |---:
+| :---  | :---: | ---: |---:|
 | 4 | Read| r--|100|
 | 2 | Write| -w-|010|
 | 1 | Execute| --x|001|
@@ -77,8 +85,24 @@ chmod 700 file.txt  results in rwx------
 chmod 000 file.txt  results in  ---------
 chmod 755 *   results in rwxr-xr-x for all the files in folder.
 ```
-06.51
+# Attributes
+a = makes a file append only (only root can do this)<br>
+i = makes a file immutable (only root can do this)<br>
+s = deleting files zlso zeroes the blocks they were stored on<br>
+List file attributes in a folder 
+```
+lsattr
+lsattr -l
+```
 
-
+Change the file Attributes
+```
+chattr +s file.txxt
+chattr -s file.txt
+sudo chattr +a file.txt
+sudo chattr -a file.txt
+sudo chattr +a file.txt
+sudo chattr -a file.txt
+```
 ### *[Home](linux.md)*
 
