@@ -101,8 +101,8 @@ chattr +s file.txxt
 chattr -s file.txt
 sudo chattr +a file.txt
 sudo chattr -a file.txt
-sudo chattr +a file.txt
-sudo chattr -a file.txt
+sudo chattr +s file.txt
+sudo chattr -s file.txt
 ```
 ### *[Home](linux.md)*
 
