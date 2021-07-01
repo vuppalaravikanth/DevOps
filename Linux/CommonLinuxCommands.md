@@ -26,12 +26,12 @@
 |cut -d: -f1 /etc/passwd \| column|List all local user accounts|
 
 ## History
-|Command |Description/Explanation|
+|Command |Explanation|
 | :---  | :--- |
 |history|List of commands executed by user|
 |history 10<br>history \| tail -n 10|Print the last 10 commands executed by user|
-|!!|Execute the last command|
-|sudo !!|Execute the last command with Sudo Permission|
+|\!\!|Execute the last command|
+|sudo \!\!|Execute the last command with Sudo Permission|
 |ctrl+R, ls(previous command), Right arrow|Search for the command and use it|
 |history \| grep shhd|Search the History List for Keyword sshd|
 | echo 'Hello'|Give a Space before the command, So that it will not store in the History List|
