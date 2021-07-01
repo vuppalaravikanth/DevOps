@@ -26,33 +26,92 @@
 |cut -d: -f1 /etc/passwd \| column|List all local user accounts|
 
 ## History
-|Command |Explanation|
-| :---  | :--- |
-|history|List of commands executed by user|
-|history 10<br>history \| tail -n 10|Print the last 10 commands executed by user|
-|\!\!|Execute the last command|
-|sudo \!\!|Execute the last command with Sudo Permission|
-|ctrl+R, ls(previous command), Right arrow|Search for the command and use it|
-|history \| grep shhd|Search the History List for Keyword sshd|
-| echo 'Hello'|Give a Space before the command, So that it will not store in the History List|
-|history -c|Clear the history List|
-|history -d 10|Delete the 10th command from History|
+
+List of commands executed by user
+```
+history
+```
+Print the last 10 commands executed by user
+```
+history 10
+history | tail -n 10
+```
+Execute the last command
+```
+!!
+```
+Execute the last command with Sudo Permission
+```
+sudo !!
+```
+Search for the command and use it
+```
+ctrl+R, ls(previous command), Right arrow
+```
+Search the History List for Keyword sshd
+```
+history | grep shhd
+```
+Give a Space before the command, So that it will not store in the History List
+```
+$ echo 'Hello'
+```
+Clear the history List
+```
+history -c
+```
+Delete the 10th command from History
+```
+history -d 10
+```
 
 ## File Operations
-|Command |Description/Explanation|
-| :---  | :--- |
-|tailf fileName.txt|tailf will print out the last 10 lines of the given file and then wait for this file to grow.|
+tailf will print out the last 10 lines of the given file and then wait for this file to grow.
+```
+tailf fileName.txt
+```
 
 ## Directory Operations
-|Command |Description/Explanation|
-| :---  | :--- |
-|pwd|Print name of current/working directory|
-|cd ..|which changes to the previous working directory|
-|cd dir1|Change to dir1|
-|mkdir ravi|Create directory ravi|
-|cd /|Go to dir /|
-|cd |Go to root directory|
-|mkdir 1 2 3|Create 3 directories 1, 2 and 3|
+
+```
+pwd
+``` 
+Print name of current/working directory<br>
+```
+cd ..
+```
+which changes to the previous working directory
+```
+cd dir1
+```
+Change to dir1
+```
+mkdir ravi
+```
+Create directory ravi
+```
+cd /
+```
+Go to dir /
+```
+cd 
+```
+Go to root directory
+```
+mkdir 1 2 3
+```
+Create 3 directories 1, 2 and 3
+```
+mkdir -p a/b/c/d
+```
+p stands for make parent directories as needed.
+```
+cd -
+```
+Go to the Previous directory
+
+
+
 
 
 
