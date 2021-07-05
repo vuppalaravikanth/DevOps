@@ -3,6 +3,11 @@
 ### *[Home](linux.md)*
 
 Print file Contents 
+
+```
+cat file.txt
+```
+Print complete file on the screen
 ```
 head -10 file.txt
 ```
