@@ -1,0 +1,20 @@
+# File Operations
+
+### *[Home](linux.md)*
+
+Print file Contents 
+```
+head -10 file.txt
+```
+Print first 10 lines from the file
+
+```
+tail -10 file.txt
+tail -10 file.txt |grep tom
+```
+Print last 10 lines from the file, In the second command line it searches for word tom.
+```
+tailf file.txt
+```
+
+
