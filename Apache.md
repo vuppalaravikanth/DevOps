@@ -1,3 +1,5 @@
+### *[Home](index.md)*
+
 Install Apache
 ```
 root@ravi:~# sudo apt update  
@@ -68,3 +70,16 @@ Access Error and access logs for the Apache
 root@ravi:~# cat /var/log/apache2/access.log
 root@ravi:~# cat /var/log/apache2/error.log
 ```
+
+|Command |Description/Explanation|
+| :---  | :--- |
+|80|Default Non Secure port for Apache web server|
+|443|Default Secure port for Apache web server|
+|/etc/apache2|ServerRoot|
+|/var/log/apache2/error.log|Error Log|
+|/var/log/apache2/access.log|Access Log|
+|/var/www/html/index.html|Default Web page|
+|/etc/httpd/conf|Default configuratino file for RPM or Red Hat Server|
+|/etc/apache2/apache2.conf|Default configuration file for Derbian linux or Ubuntu|
+
+
