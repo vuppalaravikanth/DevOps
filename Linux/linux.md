@@ -13,3 +13,5 @@
 #### *[Uncomplicated Firewall - ufw](ufw.md)*
 
 #### *[History](history.md)*
+
+#### *[Locate](locate.md)*
