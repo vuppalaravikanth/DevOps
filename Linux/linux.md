@@ -1,4 +1,4 @@
-### *[Home](index.md)* / *[Linux](linux.md)*
+### *[Home](./index.md)* / *[Linux](linux.md)*
 
 #### *[File Permissionsand Attributes](FilePermissionsandAttributes.md)*
 
